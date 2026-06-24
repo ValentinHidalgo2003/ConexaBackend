@@ -1,1 +1,37 @@
+## Build results
+bin/
+obj/
+out/
 
+## IDE
+.vs/
+.vscode/
+*.user
+*.suo
+
+## .NET
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Database
+*.db
+*.db-shm
+*.db-wal
+
+## Environment
+.env
+.env.*
+!.env.example
+
+## OS
+.DS_Store
+Thumbs.db
+
+## Test results
+TestResults/
+coverage/
+
+## NuGet
+*.nupkg
+*.snupkg
